@@ -64,7 +64,7 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    emailjs.sendForm("SERVICE_ID_KAMU", "TEMPLATE_ID_KAMU", this)
+    emailjs.sendForm("service_wkwkyxx", "template_r6mzzkb", this)
     .then(function() {
         alert("Pesan berhasil dikirim!");
     }, function(error) {
